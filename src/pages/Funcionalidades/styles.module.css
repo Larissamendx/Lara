@@ -1,0 +1,129 @@
+.containerFuncionalidades header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -257px;
+}
+
+.containerFuncionalidades header h1 {
+    width: 40%;
+    color:#fff;
+    font-size: 4em;
+}
+
+.containerFuncionalidades header img {
+    width: 500px;
+}
+
+.containerFuncionalidades main {
+    margin-top: 10rem;
+}
+
+.containerFuncionalidades main h1 {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.containerFuncionalidades h1 span {
+    color: pink;
+}
+
+
+.função img {
+    width: 150px;
+}
+
+.função {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    margin: 1.5rem 0 ;         
+}
+
+.col {
+    width: 380px;
+}
+
+.col p {
+    width:280px;
+    margin: auto;
+}
+
+.containerFuncionalidades section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.containerFuncionalidades h1 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.containerCard {
+    display: flex;
+}
+
+.containerCard div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F1F3F4;
+    border-radius: 25px;
+    margin-right: 2rem;
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    transition: transform .4s;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+}
+
+.containerCard h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #576166;
+    width: 100%;
+}
+
+.containerCard p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #90A2B0;
+}
+
+.containerCard img {
+    width: 70px;
+    margin: 1rem 0;
+}
+
+
+.assinar {
+    background-color: #AFCAD5;
+    border-radius: 20px;
+    height:3em;
+    width: 12em;
+    font-size: 20px;
+   margin-top:5em;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    color: #2E6590;
+    text-align: center;
+} 
+
+.assinar:hover {
+    background-color: #90A2B0;
+}

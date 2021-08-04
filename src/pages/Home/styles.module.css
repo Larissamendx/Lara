@@ -1,0 +1,426 @@
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+.homePageContainer h1 {
+    font-weight: 700;
+    margin-top: 8rem;
+    width: 15em;
+    font-size: 3.5rem;
+    color: #FFF;
+    font-family: Candara, sans-serif;
+}
+
+.homePageContainer h2 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;   
+}
+
+.Buttonn {
+    margin-top: 3em;
+    background-color:#ffff;
+    color: black;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height:3em;
+    width: 12em;
+    font-size:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    border:none;
+}
+
+.Buttonn:hover {
+    background-color: #ffff;
+    color: #90A2B0;
+}
+
+.homePageContainer .bgHeader {
+    width: 35em;
+    margin-top: 300px;
+}
+
+.Sobre {
+    margin-top: 4rem;
+}
+
+.Sobre h1 {
+    color: #606366;
+    font-weight: 400;
+    margin-top:10px;
+    padding-bottom: 20px;
+}
+
+.Sobre p {
+    font-size: 25px;
+}
+
+.Sobre span {
+    color:#AFCAD5;
+}
+
+.Sobre .video {
+    width: 35em;
+    height: 30em;
+}
+
+
+.Motivos .slide img {
+    width: 75px;
+}
+
+.Motivos .containerSlide {
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.Motivos .containerSlide > img {
+    width: 22px;
+}
+
+.Motivos .containerSlide p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #FFF;
+    margin-top: 1rem;
+}
+
+.Motivos .containerSlide > div {
+    width: 180px;
+    height: 200px;
+    background: #90A2B0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    
+}
+
+.Motivos .containerSlide .voltar {
+    position: absolute;
+    left: -210px;
+    transform: rotate(65.5deg);
+    top: 70px;
+    cursor: pointer;
+}
+
+.Motivos .containerSlide .proximo {
+    position: absolute;
+    right: -210px;
+    top: 70px;
+    cursor: pointer;
+}
+
+.Motivos .containerSlide .atualSlide {
+    z-index: 2;
+}
+
+.Motivos .containerSlide .anteriorSlide {
+    position: absolute;
+    left: -170px;
+    bottom: 30px;
+}
+
+.Motivos .containerSlide .proximoSlide {
+    position: absolute;
+    right: -170px;
+    bottom: 30px;
+}
+
+.Motivos {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+}
+
+.Motivos span {
+    color:#AFCAD5;
+}
+
+.Motivos h2 {
+    font-weight: 600;
+    font-size:45px;
+    
+}
+
+.Motivos h4 {
+    width:18em;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.Funcionamento {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.Funcionamento h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #606366;
+    margin-bottom: 5rem;
+}
+
+.Funcionamento .square a{
+    text-decoration: none;
+}
+
+.Funcionamento .square p {
+    color: #000;
+    font-weight: 700;
+    width: 70%;
+}
+
+.Funcionamento > div {
+    display: flex;
+    align-items: center;
+}
+
+.Funcionamento .square {
+    width: 165px;
+    height: 165px;
+    background-color:#EDECEB;
+    margin-right: 3rem;
+    border: 1px solid #EDECEB;
+    border-radius: 10px;
+    box-shadow: 9px 11px 10px rgb(0 0 0 / 18%);
+    transition: transform .3s;
+}
+.Funcionamento .square:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+.Funcionamento .square:last-child {
+    margin-right: 0;
+}
+
+.Funcionamento .square:nth-child(2) {
+    background: #AFCAD5;
+}
+
+.Funcionamento .square:nth-child(3) {
+    background: #90A2B0;
+}
+
+.Funcionamento .square:nth-child(2) p,
+.Funcionamento .square:nth-child(3) p {
+    color: #EDECEB;
+}
+
+.Funcionamento .square a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.Funcionamento img {
+    width: 75px;
+}
+
+.TesteG {
+    background-color: #AFCAD5;
+    border-radius: 20px;
+    margin-top:7em;
+    margin-bottom: 5em;
+    height:3em;
+    width: 12em;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    color: #2E6590;
+}
+
+.TesteG:hover {
+    background-color: #90A2B0;
+}
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.planos > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.planos > div:nth-child(2),
+.planos > div:nth-child(3) {
+    margin-top: 3rem;
+}
+
+.planos h2 {
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #FFF;
+}
+
+.planos .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F1F3F4;
+    border-radius: 70px;
+    margin-right: 2rem;
+    width: 200px;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    transition: transform .4s;
+}
+
+.planos .container:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 4px solid #576166;
+  }
+
+ .planos .container:nth-child(2),
+.planos .container:nth-child(3) {
+    margin-top: 5em;
+    height:23em;
+} 
+
+.planos .container:first-child {
+    margin-top: -5em;
+    height:23em;
+}
+
+.planos .container>:nth-child(2) {
+    height:2em;
+}
+
+.planos .container:last-child {
+    margin-right: 0;
+    margin-top: -5em;
+    height:23em;
+}
+
+.planos .container h3 {
+    font-weight: 700;
+    color: #2E6590;
+}
+
+.planos .container p {
+    font-weight: 700;
+    color: #2E6590;
+}
+
+.planos .container img {
+    width: 70px;
+    margin: 1rem 0;
+}
+
+.planos .container span {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #2E6590;
+
+}
+.planos .container a {
+    background-color:  #2E6590;
+    border-radius: 20px;
+    height:2.5em;
+    width: 10em;
+    font-size: 15px;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    color: #fff;
+    justify-content: center;
+}
+.Cadastrar {
+    display:flex;
+    flex-direction: column;
+    background-color:  #ffff;
+    border-radius: 20px;
+    height:3em;
+    width: 12em;
+    font-size: 20px;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    color: #2E6590;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.Cadastrar:hover {
+    background-color: #2E6590;
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    margin-bottom: 50px;
+}
+
+.duvidas h1 {
+    color:#000;
+    width:73%;
+}
+
+.duvidas p {
+    font-size: 28px;
+    width:73%;
+}
+
+.suporte {
+    display:flex;
+    flex-direction: column;
+    background-color: #AFCAD5;
+    border-radius: 20px;
+    height:3em;
+    width: 12em;
+    font-size: 20px;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    color: #2E6590;
+    align-self: flex-end;
+    margin-top: -90px;
+   
+}
+
+.suporte:hover {
+    background-color: #90A2B0;
+}
