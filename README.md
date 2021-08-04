@@ -15,7 +15,7 @@
 - Git Bash
 <br />
 
-### Ajustes e melhorias
+### Páginas e Ajustes
 
 As próximas atualizações serão voltadas nas seguintes tarefas:
 
