@@ -1,10 +1,6 @@
 # Lara
 > Projeto em Desenvolvimento 
 
-Você já passou horas trabalhando na frente do computador e no dia seguinte sentiu desconforto na coluna ou dores nas vistas? <br />
-O Move It veio para solucionar esse impasse. Além de melhorar a sua qualidade de vida ajudará também na sua concentração. <br />
-Você será desafiado a fazer um exercício a cada ciclo finalizado e após concluir o desafio você ganhará uma pontuação em XP, mas caso falhe você não ganhará nada a não ser dores nas costas.
-
 ## :rocket: Tecnologias Usada:
 - HTML5
 - CSS3
